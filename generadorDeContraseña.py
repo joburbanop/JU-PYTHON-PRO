@@ -4,7 +4,7 @@ characters="+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456
 
 length=int(input("introduce la longuitud de la contraseña"))
 
-password=""
+password="789"
 
 for i in range(length):
     password+=random.choice(characters)
